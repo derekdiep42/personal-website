@@ -94,6 +94,7 @@ function MyApp() {
           <Box
             display="flex"
             alignItems="center"
+            textAlign="center"
             sx={{
               "@media (max-width: 590px)": {
                 flexDirection: "column",
@@ -105,7 +106,16 @@ function MyApp() {
               Derek Diep ✨
             </Typography>
           </Box>
-          <Box display="flex" alignItems="center">
+          <Box
+            display="flex"
+            alignItems="center"
+            textAlign="center"
+            sx={{
+              "@media (max-width: 590px)": {
+                flexDirection: "column",
+              },
+            }}
+          >
             <Typography variant="h5">I'm a&nbsp;</Typography>
             <Typography variant="h5">
               <ReactRotatingText

@@ -13,7 +13,6 @@ export const StyledIconButton: React.FC<StyledIconButtonProps> = ({
   <IconButton
     color="inherit"
     href={href}
-    target="_blank"
     sx={{
       borderRadius: "42%",
       border: "2px solid",
