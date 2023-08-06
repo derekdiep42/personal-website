@@ -38,6 +38,7 @@ function MyApp() {
     async (container: Container | undefined) => {
       if (container) {
         setParticlesContainer(container);
+        container.loadTheme("dark");
       }
     },
     []
@@ -90,7 +91,15 @@ function MyApp() {
               }}
             />
           </Box>
-          <Box display="flex" alignItems="center">
+          <Box
+            display="flex"
+            alignItems="center"
+            sx={{
+              "@media (max-width: 590px)": {
+                flexDirection: "column",
+              },
+            }}
+          >
             <Typography variant="h4">✨ Hi! My name is&nbsp;</Typography>
             <Typography variant="h4" sx={{ fontWeight: "650" }}>
               Derek Diep ✨
