@@ -121,7 +121,7 @@ function MyApp() {
               <ReactRotatingText
                 items={[
                   "Full Stack Web Developer 👨‍💻",
-                  "Student of the University of Waterloo 👨‍🎓",
+                  "Graduate of the University of Waterloo 👨‍🎓",
                   "Software Engineer 🛠️",
                   "PC and Keyboard Builder 🖥️",
                 ]}
@@ -163,7 +163,7 @@ function MyApp() {
             gap={2}
             mb={2}
           >
-            <StyledIconButton href="Resume-07-19-2023.pdf">
+            <StyledIconButton href="ResumeGrad-02-27-2024-FRONTEND.pdf">
               <DescriptionIcon fontSize="large" />
             </StyledIconButton>
             <StyledIconButton href="mailto:derekdiep42@gmail.com">
