@@ -163,7 +163,7 @@ function MyApp() {
             gap={2}
             mb={2}
           >
-            <StyledIconButton href="ResumeGrad-02-27-2024-FRONTEND.pdf">
+            <StyledIconButton href="Derek Diep - Fullstack.pdf">
               <DescriptionIcon fontSize="large" />
             </StyledIconButton>
             <StyledIconButton href="mailto:derekdiep42@gmail.com">
