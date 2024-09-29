@@ -80,10 +80,11 @@ function MyApp() {
           />
           <Box display="flex" alignItems="center">
             <img
-              src="profile.png"
+              src={`${process.env.PUBLIC_URL}/profile.png`}
               alt="pic"
               height="350px"
               style={{
+                zIndex: "10",
                 borderRadius: "50%",
                 border: `${
                   mode === Theme.Dark ? "4px solid white" : "4px solid black"
